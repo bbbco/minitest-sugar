@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-It's too complicated.
+See [rubydoc](http://rubydoc.info/github/frodsan/minitest-sugar/master/frames).
 
 ## Contributing
 

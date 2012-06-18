@@ -3,7 +3,7 @@ module Minitest
     # Allow to create tests in a more human readable form.
     #
     #  class TruthTest < MiniTest::Unit::TestCase
-    #    include MiniTest::Sugar
+    #    extend MiniTest::Sugar
     #
     #    test 'assert the truth' do
     #      assert false
