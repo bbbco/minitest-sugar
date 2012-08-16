@@ -18,6 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
+Allow to create tests in a more human readable form:
+
+```
+class TruthTest < MiniTest::Unit::TestCase
+  extend MiniTest::Sugar
+
+  test 'assert the truth' do
+    assert true
+  end
+end
+```
+
 See [rubydoc](http://rubydoc.info/github/frodsan/minitest-sugar/master/frames).
 
 ## Contributing
