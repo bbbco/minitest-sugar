@@ -1,5 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/minitest-sugar/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ['Francesco Rodriguez']
@@ -12,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'minitest-sugar'
   gem.require_paths = ['lib']
-  gem.version       = MiniTest::Sugar::VERSION
+  gem.version       = '0.0.4'
 
   gem.add_dependency 'minitest', '>= 3.1.0'
 end

@@ -21,6 +21,8 @@ Or install it yourself as:
 Allow to create tests in a more human readable form:
 
 ```
+require 'minitest/sugar'
+
 class TruthTest < MiniTest::Unit::TestCase
   extend MiniTest::Sugar
 
