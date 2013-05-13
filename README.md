@@ -1,43 +1,27 @@
-# minitest-sugar
+minitest-sugar
+==============
 
 Sugar for your MiniTest diet.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'minitest-sugar'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Installation
+------------
 
     $ gem install minitest-sugar
 
-## Usage
+Usage
+-----
 
-Allow to create tests in a more human readable form:
+Install this gem and create tests in a more human readable way:
 
 ```
 require 'minitest/sugar'
 
-class TruthTest < MiniTest::Unit::TestCase
-  extend MiniTest::Sugar
+class TruthTest < Minitest::Test
+  extend Minitest::Sugar
 
+  # instead of `def test_assert_the_truth` do:
   test 'assert the truth' do
     assert true
   end
 end
 ```
-
-See [rubydoc](http://rubydoc.info/github/frodsan/minitest-sugar/master/frames).
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request

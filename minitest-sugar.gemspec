@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'minitest-sugar'
   gem.require_paths = ['lib']
-  gem.version       = '0.0.4'
+  gem.version       = '1.0.0'
 
-  gem.add_dependency 'minitest', '>= 3.1.0'
+  gem.add_dependency 'minitest', '>= 5.0.0'
 end
